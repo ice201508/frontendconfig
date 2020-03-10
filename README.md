@@ -89,6 +89,17 @@ module.exports = {
   // 行尾需要有分号
   semi: true
 };
+
+
+// 关于属性换行的问题
+{
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+     "wrap_attributes": "auto"
+    }
+   }
+}
 ```
 
 
